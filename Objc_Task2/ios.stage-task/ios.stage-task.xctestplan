@@ -1,0 +1,31 @@
+{
+  "configurations" : [
+    {
+      "id" : "F5F533F2-822D-4BA5-8745-AD24A3440772",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "maximumTestExecutionTimeAllowance" : 60,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:ios.stage-task.xcodeproj",
+      "identifier" : "8293ECA226346C7100CEE768",
+      "name" : "ios.stage-task"
+    },
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:ios.stage-task.xcodeproj",
+        "identifier" : "8293ECBD26346C7500CEE768",
+        "name" : "ios.stage-taskTests"
+      }
+    }
+  ],
+  "version" : 1
+}
