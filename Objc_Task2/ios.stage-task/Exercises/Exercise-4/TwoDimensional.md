@@ -12,7 +12,7 @@ Depending on the input parameters, you need to sort the array in three ways:
 ### Example 1
 ```
 Input: [[4, 6, 2], [1, 5, 3], [], [8, 2, 7, 9]] 
-Output: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+Output: [1, 2, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 
 ### Example 2
@@ -24,7 +24,7 @@ Output: [“Alex”, “Ben”, “Cris”, “Desmond”, “Evan”]
 ### Example 3
 ```
 Input: [[4, 6, 2], [1, 5, 3], [“Ben”, “Alex”, “Cris”], [“Desmond”, “Evan”], [8, 2, 7, 9]]
-Output: [[1, 2, 3, 4, 5, 6, 7, 8, 9], [“Evan”, “Desmond”, “Cris”, “Ben”, “Alex”]]
+Output: [[1, 2, 2, 3, 4, 5, 6, 7, 8, 9], [“Evan”, “Desmond”, “Cris”, “Ben”, “Alex”]]
 ```
 
 In the case of an input one-dimensional array, return an empty array: 
